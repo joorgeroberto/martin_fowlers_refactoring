@@ -1,0 +1,11 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "A project to practice topics from Martin Fowler's Refactoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jorge de Carvalho",
+  "license": "ISC"
+}
