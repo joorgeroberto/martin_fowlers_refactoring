@@ -1,0 +1,104 @@
+[
+  {
+    "customer": "BigCo",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 55
+      },
+      {
+        "playID":"as-like",
+        "audience": 35
+      },
+      {
+        "playID":"othello",
+        "audience": 40
+      }
+    ] 
+  },
+  {
+    "customer": "BigCo I",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 60
+      },
+      {
+        "playID":"as-like",
+        "audience": 70
+      },
+      {
+        "playID":"othello",
+        "audience": 30
+      }
+    ] 
+  },
+  {
+    "customer": "BigCo II",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 10
+      },
+      {
+        "playID":"as-like",
+        "audience": 80
+      },
+      {
+        "playID":"othello",
+        "audience": 66
+      }
+    ] 
+  },
+  {
+    "customer": "BigCo III",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 1156
+      },
+      {
+        "playID":"as-like",
+        "audience": 865
+      },
+      {
+        "playID":"othello",
+        "audience": 546
+      }
+    ] 
+  },
+  {
+    "customer": "BigCo IV",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 654
+      },
+      {
+        "playID":"as-like",
+        "audience": 667
+      },
+      {
+        "playID":"othello",
+        "audience": 52
+      }
+    ] 
+  },
+  {
+    "customer": "BigCo V",
+    "performances": [
+      {
+        "playID":"hamlet",
+        "audience": 33
+      },
+      {
+        "playID":"as-like",
+        "audience": 42
+      },
+      {
+        "playID":"othello",
+        "audience": 77
+      }
+    ] 
+  }
+]

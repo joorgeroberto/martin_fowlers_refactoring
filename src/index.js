@@ -44,7 +44,11 @@ function statement(invoice, plays) {
   return result;
 }
 
-const invoices = require("./src/utils/invoices.json");
-const plays = require("./src/utils/plays.json");
+const invoices = require("./utils/invoices.json");
+const plays = require("./utils/plays.json");
 
 console.log(statement(invoices, plays));
+
+module.exports = {
+  statement,
+};
