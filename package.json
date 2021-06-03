@@ -4,8 +4,12 @@
   "description": "A project to practice topics from Martin Fowler's Refactoring",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "author": "Jorge de Carvalho",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.3"
+  }
 }
