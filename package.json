@@ -10,6 +10,7 @@
   "author": "Jorge de Carvalho",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.28.0",
     "jest": "^27.0.3"
   }
 }
