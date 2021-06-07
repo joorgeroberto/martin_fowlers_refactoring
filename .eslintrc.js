@@ -3,10 +3,11 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2021: true,
+    jest: true
   },
-  extends: "eslint:recommended",
+  extends: ['eslint:recommended'],
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 12
   },
-  rules: { semi: ["error", "always"], quotes: ["error", "double"] },
+  rules: { semi: ['error', 'always'], quotes: ['error', 'single'] }
 };
