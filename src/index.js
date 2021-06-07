@@ -1,7 +1,7 @@
 function statement(invoice, plays) {
   function amountFor(aPerformance, play) {
     let result = 0;
-    switch (play.type) {
+    switch (playsFor(aPerformance).type) {
       case 'tragedy':
         result = 40000;
         if (aPerformance.audience > 30) {
