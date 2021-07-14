@@ -23,6 +23,12 @@ function statement(invoice, plays) {
     }
     return result;
   }
+  function volumeCreditsFor(perf) {
+    let volumeCredits = 0;
+    volumeCredits += Math.max(perf.audience - 30, 0);
+    if ('comedy' === playsFor(perf).type) volumeCredits += Math.floor(perf.audience / 5);
+    return volumeCredits;
+  }
   let totalAmount = 0;
   let volumeCredits = 0;
   let result = `Statement for ${invoice.customer}\n`;
@@ -32,10 +38,7 @@ function statement(invoice, plays) {
     minimumFractionDigits: 2
   }).format;
   for (let perf of invoice.performances) {
-    // soma créditos por volume
-    volumeCredits += Math.max(perf.audience - 30, 0);
-    // soma um crédito extra para cada dex espectadores de comédia
-    if ('comedy' === playsFor(perf).type) volumeCredits += Math.floor(perf.audience / 5);
+    volumeCredits += volumeCreditsFor(perf);
 
     // exibe uma linha para requisição
     result += `  ${playsFor(perf).name}: ${format(amountFor(perf) / 100)} (${
